@@ -52,5 +52,5 @@ app.get("*", (req, res) => {
 });
 
 app.listen(3000, () => {
-  console.log(colors.america("server OK"));
+  console.log(colors.rainbow("server OK"));
 });
